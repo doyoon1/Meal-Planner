@@ -6,11 +6,23 @@ import Dish3 from "../assets/dish3.png";
 import Facebook from "../assets/facebook.png";
 import Twitter from "../assets/twitter.png";
 import Instagram from "../assets/instagram.png";
+import { NavLink, useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate();
+
+  const handleRegisterClick = () => {
+    navigate("/register");
+  };
+
   return (
     <div>
-      <div className="showcase"></div>
+      <div className="showcase">
+        <div className="title">
+          <h1>MealMate</h1>
+          <button onClick={handleRegisterClick}>Start cooking!</button>
+        </div>
+      </div>
       <div className="actions">
         <button className="btn">Check Famous Recipes</button>
         <button className="btn">Register Now</button>
@@ -48,21 +60,6 @@ function Home() {
             </p>
           </div>
         </div>
-      </div>
-      <div className="reg">
-        <div className="label">
-          Ready to embark in your cooking Journey? Enter your family size to
-          start!
-        </div>
-        <form>
-          <input />
-          <br />
-          Serving Size: <input />
-          <br />
-          Food Type: <input />
-          <br />
-          <button>Cook!</button>
-        </form>
       </div>
       <footer>
         <div className="footer-contents">
