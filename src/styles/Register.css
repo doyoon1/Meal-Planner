@@ -17,6 +17,14 @@
   margin-top: 1rem;
   border-radius: 16px;
   margin-bottom: 4rem;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 5.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 20px 20px rgba(0, 0, 0, 0.12);
+}
+
+.box-right button:hover {
+  background-color: #892201;
+  transition: 0.35s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .box-input-row {
@@ -58,8 +66,8 @@
   height: 4rem;
   font-size: 1rem;
   font-weight: bold;
-  margin: 1rem 0 1rem .25rem;
-  background-color: #27273a;
+  margin: 1rem 0 1rem 0.25rem;
+  background-color: #a04814;
   color: #fff;
 }
 
@@ -124,8 +132,8 @@
     height: 4rem;
     font-size: 1rem;
     font-weight: bold;
-    margin: 1rem 0 1rem .25rem;
-    background-color: #27273a;
+    margin: 1rem 0 1rem 0.25rem;
+    background-color: #a04814;
     color: #fff;
   }
 }
@@ -191,8 +199,8 @@
     height: 4rem;
     font-size: 1rem;
     font-weight: bold;
-    margin: 1rem 0 1rem .25rem;
-    background-color: #27273a;
+    margin: 1rem 0 1rem 0.25rem;
+    background-color: #a04814;
     color: #fff;
   }
 }

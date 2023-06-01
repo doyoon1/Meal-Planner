@@ -1,3 +1,7 @@
+body {
+  background-color: #f0f2f5;
+}
+
 .showcase {
   width: 100%;
   height: 590px;
@@ -16,7 +20,7 @@
 }
 
 .actions .btn {
-  background-color: #000;
+  background-color: #a04814;
   height: 2.5rem;
   width: 15rem;
   font-size: 1rem;
@@ -56,7 +60,7 @@
 
 footer {
   height: 100px;
-  background-color: #27273a;
+  background-color: #892201;
   color: #fff;
 }
 
@@ -74,8 +78,6 @@ footer {
     background-position: center;
   }
 
-  
-  
   .actions {
     flex-direction: column;
     align-items: center;
@@ -145,7 +147,7 @@ footer {
     width: 15rem;
     border-radius: 16px;
     font-size: 3rem;
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
   .title button {
@@ -153,9 +155,13 @@ footer {
     color: #fff;
     height: 2.5rem;
     width: 6rem;
-    padding: .5rem;
+    padding: 0.5rem;
     border-radius: 16px;
-    font-size: .7rem;
+    font-size: 0.7rem;
+  }
+
+  .title button:hover {
+    background-color: #892301;
   }
 }
 
@@ -202,7 +208,7 @@ footer {
     width: 25rem;
     border-radius: 16px;
     font-size: 4rem;
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
   .title button {
@@ -215,6 +221,9 @@ footer {
     font-size: 1.3rem;
   }
 
+  .title button:hover {
+    background-color: #892301;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -242,7 +251,7 @@ footer {
     width: 25rem;
     border-radius: 16px;
     font-size: 5rem;
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
   .title button {
@@ -255,8 +264,12 @@ footer {
     font-size: 1.5rem;
   }
 
+  .title button:hover {
+    background-color: #892301;
+  }
+
   .actions .btn {
-    background-color: #000;
+    background-color: #a04814;
     height: 3.5rem;
     width: 17rem;
     font-size: 1.3rem;
