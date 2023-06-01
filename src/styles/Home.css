@@ -318,4 +318,25 @@ footer {
   .footer-contents .brand {
     font-size: 1.5rem;
   }
+
+o {
+    width: 50%;
+  }
+
+  .footer-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+
+  .footer-contents .icons img {
+    height: 2rem;
+    width: auto;
+    margin: 0 0.5rem;
+  }
+
+  .footer-contents .brand {
+    font-size: 1.5rem;
+  }
 }

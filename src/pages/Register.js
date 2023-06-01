@@ -12,7 +12,7 @@ function Register() {
   return (
     <div className="container">
       <div className="leftside">
-        <p>MealMate</p>
+        <p>Sign up</p>
       </div>
       <div className="rightside">
         <div className="box">

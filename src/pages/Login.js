@@ -17,7 +17,7 @@ function Login() {
     <div className="body">
       <div className="container">
         <div className="left-side">
-          <p>MealMate</p>
+          <p>Sign in</p>
         </div>
 
         <div className="right-side">
