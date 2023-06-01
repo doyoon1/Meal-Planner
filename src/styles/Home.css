@@ -50,10 +50,6 @@
   max-width: 400px;
 }
 
-.reg input {
-  padding: 0.5rem;
-}
-
 .info .heading {
   margin: 12px;
 }
@@ -78,6 +74,8 @@ footer {
     background-position: center;
   }
 
+  
+  
   .actions {
     flex-direction: column;
     align-items: center;
@@ -106,74 +104,6 @@ footer {
     font-size: 1rem;
   }
 
-  .reg {
-    background-image: url(../assets/footer3.png);
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 290px;
-  }
-
-  .reg .label {
-    margin: 2rem;
-    margin-top: 7rem;
-    background-color: #bd6a1c93;
-    border-radius: 8px;
-    padding-top: 0.8rem;
-    height: 90px;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 0.8rem;
-  }
-
-  .reg form {
-    margin: 1rem;
-    margin-top: 4rem;
-    background-color: #bd6a1c93;
-    height: 180px;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    font-size: 0.5rem;
-    color: #fff;
-    font-weight: bold;
-  }
-
-  .reg input {
-    border-radius: 2px;
-    width: 50%;
-    height: 20px;
-    border: none;
-    margin: 0.2rem;
-    font-size: 0.5rem;
-    padding: 0.5rem;
-  }
-
-  .reg input:nth-child(1) {
-    width: 90%;
-    margin-top: 40px;
-  }
-
-  .reg input:nth-child(5) {
-    margin-left: 10px;
-  }
-
-  .reg button {
-    border-radius: 2px;
-    width: 60%;
-    height: 20px;
-    border: none;
-    background-color: #ffffff;
-    color: #bd6a1c;
-    font-weight: bold;
-    font-size: 0.6rem;
-    cursor: pointer;
-  }
-
   footer {
     height: 70px;
   }
@@ -199,6 +129,34 @@ footer {
   .footer-contents .brand {
     font-size: 1rem;
   }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 5rem;
+  }
+
+  .title h1 {
+    color: #ffffff;
+    background-color: #00000088;
+    width: 15rem;
+    border-radius: 16px;
+    font-size: 3rem;
+    padding: .5rem;
+  }
+
+  .title button {
+    background-color: #892301e3;
+    color: #fff;
+    height: 2.5rem;
+    width: 6rem;
+    padding: .5rem;
+    border-radius: 16px;
+    font-size: .7rem;
+  }
 }
 
 @media (min-width: 600px) {
@@ -206,71 +164,6 @@ footer {
     width: 50%;
     border-radius: 15px;
     max-width: 300px;
-  }
-
-  .reg {
-    background-image: url(../assets/footer2.png);
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 400px;
-  }
-
-  .reg .label {
-    margin: 170px 4rem;
-    background-color: #bd6a1c93;
-    border-radius: 8px;
-    padding: 1rem;
-    height: 70px;
-    width: 500px;
-    text-align: center;
-    align-items: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 0.8rem;
-  }
-
-  .reg form {
-    margin: 2rem;
-    background-color: #bd6a1c93;
-    height: 350px;
-    width: 500px;
-    text-align: center;
-    align-items: center;
-    color: #fff;
-    font-weight: bold;
-  }
-
-  .reg input {
-    border-radius: 2px;
-    width: 180px;
-    height: 40px;
-    border: none;
-    margin: 0.5rem;
-    font-size: 1rem;
-  }
-
-  .reg input:nth-child(1) {
-    width: 280px;
-    margin-top: 60px;
-  }
-
-  .reg input:nth-child(5) {
-    margin-left: 1.5rem;
-  }
-
-  .reg button {
-    border-radius: 2px;
-    width: 200px;
-    height: 40px;
-    border: none;
-    background-color: #ffffff;
-    color: #bd6a1c;
-    font-weight: bold;
-    margin: 2rem;
-    font-size: 1rem;
-    cursor: pointer;
   }
 
   .footer-contents {
@@ -293,6 +186,35 @@ footer {
   .footer-contents .brand {
     font-size: 1.2rem;
   }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 12rem;
+  }
+
+  .title h1 {
+    color: #ffffff;
+    background-color: #00000088;
+    width: 25rem;
+    border-radius: 16px;
+    font-size: 4rem;
+    padding: .5rem;
+  }
+
+  .title button {
+    background-color: #892301e3;
+    color: #fff;
+    height: 4rem;
+    width: 13rem;
+    padding: 1rem;
+    border-radius: 16px;
+    font-size: 1.3rem;
+  }
+
 }
 
 @media (min-width: 1000px) {
@@ -303,6 +225,34 @@ footer {
     background-repeat: none;
     background-size: cover;
     background-position: center;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 12rem;
+  }
+
+  .title h1 {
+    color: #ffffff;
+    background-color: #00000088;
+    width: 25rem;
+    border-radius: 16px;
+    font-size: 5rem;
+    padding: .5rem;
+  }
+
+  .title button {
+    background-color: #892301e3;
+    color: #fff;
+    height: 4rem;
+    width: 13rem;
+    padding: 1rem;
+    border-radius: 16px;
+    font-size: 1.5rem;
   }
 
   .actions .btn {
@@ -337,73 +287,6 @@ footer {
 
   .info {
     width: 50%;
-  }
-
-  .reg {
-    background-image: url(../assets/footer.png);
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 500px;
-  }
-
-  .reg .label {
-    margin: 200px 4rem;
-    background-color: #bd6a1c93;
-    border-radius: 8px;
-    padding: 1rem;
-    height: 70px;
-    width: 500px;
-    text-align: center;
-    align-items: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 1rem;
-  }
-
-  .reg form {
-    margin: 3.5rem;
-    background-color: #bd6a1c93;
-    height: 400px;
-    width: 500px;
-    text-align: center;
-    align-items: center;
-    color: #fff;
-    font-weight: bold;
-  }
-
-  .reg input {
-    border-radius: 2px;
-    width: 200px;
-    height: 40px;
-    border: none;
-    margin: 0.5rem;
-    font-size: 1rem;
-  }
-
-  .reg input:nth-child(1) {
-    width: 300px;
-    margin-top: 100px;
-  }
-  .reg input:nth-child(3) {
-    margin-left: 1rem;
-  }
-  F .reg input:nth-child(5) {
-    margin-left: 2rem;
-  }
-
-  .reg button {
-    border-radius: 2px;
-    width: 200px;
-    height: 40px;
-    border: none;
-    background-color: #ffffff;
-    color: #bd6a1c;
-    font-weight: bold;
-    margin: 2rem;
-    font-size: 1rem;
-    cursor: pointer;
   }
 
   .footer-contents {

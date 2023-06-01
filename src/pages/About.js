@@ -6,7 +6,7 @@ function About() {
     <div className="container">
       <section>
         <h1>MealMate</h1>
-        <p>
+        <p className="lab">
           Welcome to MealMate, your ultimate meal planning companion
           for budget-conscious individuals and families. We understand the
           challenges of managing expenses while striving to enjoy delicious,
