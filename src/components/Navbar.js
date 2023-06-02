@@ -1,11 +1,17 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "../styles/Navbar.css";
 
 function Navbar() {
+  const navigate = useNavigate();
+
+  const handleHomeClick = () => {
+    navigate("/");
+  };
+
   return (
     <nav>
-      <div className="logo">MealMate</div>
+      <div className="logo" onClick={handleHomeClick}>MealMate</div>
       <input type="checkbox" id="click" />
       <label htmlFor="click" className="menu-btn">
         <i className="fas fa-bars"></i>

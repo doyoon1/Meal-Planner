@@ -23,12 +23,16 @@ function Register() {
             </div>
             <input placeholder="Username" />
             <div className="box-input-row">
-              <input placeholder="Password" />
-              <input placeholder="Confirm password" />
+              <input placeholder="Password" type="password" />
+              <input placeholder="Confirm password" type="password" />
             </div>
-            <input placeholder="Birthday" />
+            <input placeholder="Birthday" type="date" />
             <input placeholder="Email" />
-            <input placeholder="Gender" />
+            <select>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
             <button>Register</button>
             <div className="form-text">
               <NavLink exact to="/login" onClick={handleLoginClick}>

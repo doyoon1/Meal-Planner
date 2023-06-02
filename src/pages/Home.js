@@ -6,13 +6,18 @@ import Dish3 from "../assets/dish3.png";
 import Facebook from "../assets/facebook.png";
 import Twitter from "../assets/twitter.png";
 import Instagram from "../assets/instagram.png";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
   const navigate = useNavigate();
+  const navigateLog = useNavigate();
 
   const handleRegisterClick = () => {
     navigate("/register");
+  };
+
+  const handleLoginClick = () => {
+    navigateLog("/login");
   };
 
   return (
@@ -20,12 +25,12 @@ function Home() {
       <div className="showcase">
         <div className="title">
           <h1>MealMate</h1>
-          <button onClick={handleRegisterClick}>Start cooking!</button>
+          <button onClick={handleLoginClick}>Start cooking!</button>
         </div>
       </div>
       <div className="actions">
         <button className="btn">Check Famous Recipes</button>
-        <button className="btn">Register Now</button>
+        <button className="btn" onClick={handleRegisterClick}>Register Now</button>
       </div>
       <div className="content">
         <div className="content_item">

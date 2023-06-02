@@ -24,7 +24,7 @@ function Login() {
           <form>
             <input placeholder="Username" />
             <br />
-            <input placeholder="Password" />
+            <input placeholder="Password" type="password" />
             <br />
             <button>Log in</button>
             <div className="form-text">
