@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Moon+Dance&family=Noto+Sans:wght@200&display=swap");
+
 section {
   background-color: #fff;
-  height: 12rem;
+  height: 18rem;
   width: 18rem;
-  padding: 1rem 1rem;
-  margin-bottom: 20rem;
+  padding: 2rem 1rem;
+  margin-bottom: 5rem;
   border-radius: 16px;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 5.5px 10px rgba(0, 0, 0, 0.06),
@@ -11,18 +13,21 @@ section {
 }
 
 h1 {
-  font-size: 1rem;
+  font-family: "Kaushan Script", cursive;
+  color: #f36525;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
 p {
   font-size: 0.6rem;
+  font-family: "Noto Sans", sans-serif;
 }
 
 @media (min-width: 600px) {
   section {
     background-color: #fff;
-    height: 25rem;
+    height: 20rem;
     width: 35rem;
     padding: 2rem 4rem;
     margin-bottom: 4rem;
@@ -30,19 +35,22 @@ p {
   }
 
   h1 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    font-family: "Kaushan Script", cursive;
+    color: #f36525;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
   }
 
   p {
-    font-size: 1rem;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 0.8rem;
   }
 }
 
 @media (min-width: 1000px) {
   section {
     background-color: #fff;
-    height: 20rem;
+    height: 25rem;
     width: 70rem;
     padding: 2rem 4rem;
     margin-bottom: 4rem;
@@ -50,11 +58,14 @@ p {
   }
 
   h1 {
+    font-family: "Kaushan Script", cursive;
     font-size: 4rem;
+    color: #f36525;
     margin-bottom: 2rem;
   }
 
   p {
-    font-size: 2rem;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.2rem;
   }
 }

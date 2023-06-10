@@ -3,6 +3,7 @@ import "../styles/Home.css";
 import Dish1 from "../assets/dish1.png";
 import Dish2 from "../assets/dish2.png";
 import Dish3 from "../assets/dish3.png";
+import Logo from "../assets/footer_logo.png";
 import Facebook from "../assets/facebook.png";
 import Twitter from "../assets/twitter.png";
 import Instagram from "../assets/instagram.png";
@@ -24,13 +25,16 @@ function Home() {
     <div>
       <div className="showcase">
         <div className="title">
-          <h1>MealMate</h1>
-          <button onClick={handleLoginClick}>Start cooking!</button>
+          <h1>Plan, Prep, Savor.</h1>
+          <h1>Your Recipe for Easy Meal Planning.</h1>
+          <button onClick={handleLoginClick}>Start Cooking!</button>
         </div>
       </div>
       <div className="actions">
         <button className="btn">Check Famous Recipes</button>
-        <button className="btn" onClick={handleRegisterClick}>Register Now</button>
+        <button className="btn" onClick={handleRegisterClick}>
+          Register Now
+        </button>
       </div>
       <div className="content">
         <div className="content_item">
@@ -39,18 +43,18 @@ function Home() {
             <h1>500+ Filipino Recipes</h1>
             <p>
               Countless delicious Filipino cuisines to try and cook for your
-              Family and loveones.
+              Family and Loved ones.
             </p>
           </div>
         </div>
         <div className="content_item">
           <img src={Dish2} />
           <div className="info">
-            <h1>Many Healthy Recipe Options</h1>
+            <h1>Many Budget-Friendly Recipe Options</h1>
             <p>
-              Has a healthy option where the recipes that we serve you are
-              healthy foods that can help you and your family have a healthy
-              food for your day.
+              Our budget-friendly meal planner offers a wide range of healthy
+              recipe options, ensuring that you and your family can enjoy
+              nutritious meals without breaking the bank.
             </p>
           </div>
         </div>
@@ -59,9 +63,8 @@ function Home() {
           <div className="info">
             <h1>Built In Market List</h1>
             <p>
-              The website can generate market lists of the ingredients that your
-              recipe needs so you don’t have to think about the exact
-              measurements of each ingredient.
+              The website generates grocery lists for your recipe's ingredients,
+              eliminating the need to worry about precise measurements.
             </p>
           </div>
         </div>
@@ -74,10 +77,10 @@ function Home() {
             <img src={Instagram} />
           </div>
           <div className="lbl">
-            All Rights Reserved <br />
+            ©All Rights Reserved <br />
             2023
           </div>
-          <div className="brand">MealMate</div>
+          <img className="brand" src={Logo} />
         </div>
       </footer>
     </div>

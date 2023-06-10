@@ -1,5 +1,6 @@
 .leftside p {
-  color: #27273a;
+  font-family: "Kaushan Script", cursive;
+  color: #f36525;
   font-size: 2rem;
   width: 20rem;
   font-weight: bold;
@@ -23,7 +24,7 @@
 }
 
 .box-right button:hover {
-  background-color: #892201;
+  background-color: #f36625;
   transition: 0.35s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
@@ -79,13 +80,14 @@
   font-size: 1rem;
   font-weight: bold;
   margin: 1rem 0 1rem 0.25rem;
-  background-color: #a04814;
+  background-color: #f36625ea;
   color: #fff;
 }
 
 @media (min-width: 600px) {
   .leftside p {
-    color: #27273a;
+    font-family: "Kaushan Script", cursive;
+    color: #f36525;
     font-size: 4rem;
     width: 20rem;
     font-weight: bold;
@@ -157,14 +159,15 @@
     font-size: 1rem;
     font-weight: bold;
     margin: 1rem 0 1rem 0.25rem;
-    background-color: #a04814;
+    background-color: #f36625ea;
     color: #fff;
   }
 }
 
 @media (min-width: 1000px) {
   .leftside p {
-    color: #27273a;
+    font-family: "Kaushan Script", cursive;
+    color: #f36525;
     font-size: 4rem;
     width: 20rem;
     font-weight: bold;
@@ -236,7 +239,7 @@
     font-size: 1rem;
     font-weight: bold;
     margin: 1rem 0 1rem 0.25rem;
-    background-color: #a04814;
+    background-color: #f36625ea;
     color: #fff;
   }
 }

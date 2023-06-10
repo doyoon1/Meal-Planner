@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
+import Logo from "../assets/logo.png";
 import "../styles/Navbar.css";
 
 function Navbar() {
@@ -11,7 +12,7 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="logo" onClick={handleHomeClick}>MealMate</div>
+      <img className="logo" onClick={handleHomeClick} src={Logo} />
       <input type="checkbox" id="click" />
       <label htmlFor="click" className="menu-btn">
         <i className="fas fa-bars"></i>
