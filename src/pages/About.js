@@ -7,11 +7,11 @@ function About() {
       <section>
         <h1>About Us!</h1>
         <p className="lab">
-          Welcome to MealMate, your ultimate meal planning companion
-          for budget-conscious individuals and families. We understand the
-          challenges of managing expenses while striving to enjoy delicious,
-          healthy meals. Our mission is to simplify your meal planning process
-          and empower you to make cost-effective choices without compromising on
+          Welcome to MealMate, your ultimate meal planning companion for
+          budget-conscious individuals and families. We understand the
+          challenges of managing expenses while striving to enjoy delicious
+          meals. Our mission is to simplify your meal planning process and
+          empower you to make cost-effective choices without compromising on
           flavor or nutrition. Whether you're a busy professional, a student on
           a tight budget, or a savvy home cook looking for inspiration, our
           innovative meal planning tool is designed to streamline your grocery

@@ -111,6 +111,72 @@ footer {
     font-size: 0.8rem;
   }
 
+  
+  .contact {
+    background-image: url(../assets/contact.png);
+    width: 100%;
+    height: 590px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .contact-container {
+    background-color: #ffffffbd;
+    width: 300px;
+    height: 400px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-container h1 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: "Moon Dance", cursive;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    color: #111;
+  }
+
+  .contact-container input {
+    font-size: 1rem;
+    font-family: "Moon Dance", cursive;
+    background-color: #fff;
+    width: 200px;
+    margin-bottom: .5rem;
+    padding: 1rem;
+    box-shadow: 0.5px 3px #666666b7;
+  }
+
+  .contact-container textarea {
+    font-size: 1rem;
+    font-family: "Moon Dance", cursive;
+    width: 200px;
+    height: 100px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: solid #ccc;
+    border-width: thin;
+    padding: 1rem;
+    box-shadow: 0.5px 2px #666666b7;
+  }
+
+  .contact-container button {
+    font-family: "Moon Dance", cursive;
+    box-shadow: 0.5px 3px #666666b7;
+    font-size: 1.5rem;
+    font-weight: 500;
+    height: 2.5rem;
+    width: 10rem;
+  }
+
   footer {
     height: 50px;
   }
@@ -182,6 +248,70 @@ footer {
 }
 
 @media (min-width: 600px) {
+  .contact {
+    background-image: url(../assets/contact.png);
+    width: 100%;
+    height: 590px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .contact-container {
+    background-color: #ffffffbd;
+    width: 500px;
+    height: 450px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-container h1 {
+    margin-top: 2rem;
+    font-family: "Moon Dance", cursive;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    color: #111;
+  }
+
+  .contact-container input {
+    font-size: 1rem;
+    font-family: "Moon Dance", cursive;
+    background-color: #fff;
+    width: 400px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0.5px 3px #666666b7;
+  }
+
+  .contact-container textarea {
+    font-size: 1rem;
+    font-family: "Moon Dance", cursive;
+    width: 400px;
+    height: 100px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    border: solid #ccc;
+    border-width: thin;
+    padding: 1rem;
+    box-shadow: 0.5px 2px #666666b7;
+  }
+
+  .contact-container button {
+    font-family: "Moon Dance", cursive;
+    box-shadow: 0.5px 3px #666666b7;
+    font-size: 1.5rem;
+    font-weight: 500;
+    height: 2.5rem;
+    width: 10rem;
+  }
+
   .content_item img {
     width: 50%;
     border-radius: 15px;
@@ -254,7 +384,7 @@ footer {
   .title button:hover {
     background-color: #f36525;
     color: #fff;
-    opacity: 80%;
+    opacity: 100%;
     border-radius: 32px;
   }
 }
@@ -349,6 +479,71 @@ footer {
   .info {
     width: 50%;
   }
+
+  .contact {
+    background-image: url(../assets/contact.png);
+    width: 100%;
+    height: 590px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .contact-container {
+    background-color: #ffffffbd;
+    width: 650px;
+    height: 480px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-container h1 {
+    margin-top: 2rem;
+    font-family: "Moon Dance", cursive;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    color: #111;
+  }
+
+  .contact-container input {
+    font-size: 1rem;
+    font-family: "Moon Dance", cursive;
+    background-color: #fff;
+    width: 400px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0.5px 3px #666666b7;
+  }
+
+  .contact-container textarea {
+    font-size: 1rem;
+    font-family: "Moon Dance", cursive;
+    width: 400px;
+    height: 100px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+    border: solid #ccc;
+    border-width: thin;
+    padding: 1rem;
+    box-shadow: 0.5px 2px #666666b7;
+  }
+
+  .contact-container button {
+    font-family: "Moon Dance", cursive;
+    box-shadow: 0.5px 3px #666666b7;
+    font-size: 1.5rem;
+    font-weight: 500;
+    height: 2.5rem;
+    width: 10rem;
+  }
+
   .footer-contents {
     display: flex;
     flex-direction: row;

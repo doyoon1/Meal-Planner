@@ -69,6 +69,16 @@ function Home() {
           </div>
         </div>
       </div>
+      <div className="contact">
+        <div className="contact-container">
+          <h1>Get in touch!</h1>
+          <input placeholder="Name" />
+          <input placeholder="Email Address" />
+          <textarea rows="4" cols="50" placeholder="Message" name="comment" form="usrform">
+          </textarea>
+          <button>Submit</button>
+        </div>
+      </div>
       <footer>
         <div className="footer-contents">
           <div className="icons">
