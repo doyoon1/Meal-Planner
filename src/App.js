@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Forgot from "./pages/Forgot";
-
+import Grocery from "./pages/Grocery";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
           <Route path="/Login" exact element={<Login />} />
           <Route path="/Register" exact element={<Register />} />
           <Route path="/Forgot" exact element={<Forgot />} />
+          <Route path="/Grocery" exact element={<Grocery />} />
         </Routes>
       </Router>
     </div>

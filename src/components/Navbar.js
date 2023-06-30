@@ -24,6 +24,9 @@ function Navbar() {
         <NavLink to="/about" activeClassName="active">
           About us
         </NavLink>
+        <NavLink to="/grocery" activeClassName="active">
+          Grocery List
+        </NavLink>
         <NavLink to="/login" activeClassName="active">
           Log in
         </NavLink>
